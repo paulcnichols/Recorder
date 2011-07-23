@@ -28,6 +28,8 @@ app.post("*", function(req, res) {
 
 app.listen(3000);
 
+/* Someday this code below will hook into the classify Websense URL classify tool.
+
 //
 // function to classify a url
 //
@@ -108,7 +110,9 @@ io.sockets.on('connection', function (socket) {
     });
 });
 
-/* Code below is for logging content bodies.  
+*/
+
+/* Code below is for logging content bodies.  */
 
 // create initial directory for session data
 var SESSION_ROOT = '/tmp/recorder/'
@@ -166,6 +170,5 @@ fs.mkdir(SESSION_ROOT, 0777, function (err) {
     });
 });
 
- */
 
 
