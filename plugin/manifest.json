@@ -1,0 +1,12 @@
+{
+    "name": "Recorder For Chrome",
+    "version": "1.0",
+    "minimum_chrome_version":"10.0",
+    "description" : "Start/Stop recording your WebTraffic for playback.",
+    "background_page" : "background.html",
+    "devtools_page": "recorder.html",
+    "permissions": [ 
+        "experimental", 
+        "<all_urls>"
+    ]
+}
